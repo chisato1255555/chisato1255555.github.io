@@ -1,5 +1,13 @@
-console.log("市村千聖");
-console.log("scriptタグのテスト中");
-console.log("東京工科大学");
-console.log("うさぎうさぎうさぎ");
-console.log("ぴょんぴょん");
+let variableA; //変数
+variableA = "最初の代入A"; //代入
+console.log(variableA); //参照
+
+let variableB;
+variableB = "最初の代入B";
+console.log(variableB);
+
+variableA = "二回目の代入A";
+console.log(variableA);
+
+variableA = "二回目の代入B";
+console.log(variableA);
