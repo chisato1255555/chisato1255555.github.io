@@ -10,4 +10,5 @@ function Dog(犬2 = "デフォルト"){
   console.log(`犬2: ${犬2}`);
 }
 
-console.log("パグ");
+Dog();
+Dog("パグ");
