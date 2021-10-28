@@ -35,3 +35,12 @@ function aaa(num1, num2) {
 console.log(aaa(100,200));
 
 
+function bbb(num3, num4) {
+  return num3 * num4;
+}
+
+console.log(bbb(12,23));
+
+
+
+
