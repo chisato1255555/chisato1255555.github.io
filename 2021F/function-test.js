@@ -24,7 +24,14 @@ console.log(2021 * 1010);
     return "number";
   }
 
-let str = calc();
-  console.log(str);
-
   console.log(calc());
+
+
+
+function aaa(num1, num2) {
+   return num1 * num2;
+}
+
+console.log(aaa(100,200));
+
+
