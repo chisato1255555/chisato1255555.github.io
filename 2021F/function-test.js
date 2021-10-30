@@ -38,14 +38,17 @@ console.log(aaa(100,200));
 
 
 function bbb(num3, num4) {
-  return num3 * num4;
+  let abc = num3 * num4;
+  let a = abc.slice(-1);
+  return a;
 }
-
 console.log(bbb(12,23));
+
 
 
 function ccc(num5, num6) {
   return num5 * num6;
+  let b = ccc.slice(-2);
 }
 
 console.log(ccc(21,52));
