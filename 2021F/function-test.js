@@ -39,18 +39,18 @@ console.log(aaa(100,200));
 
 function bbb(num3, num4) {
   let abc = num3 * num4;
-  let a = abc.slice(-1);
-  return a;
+  let a = String(abc);
+  return a.slice(-1);
 }
 console.log(bbb(12,23));
 
 
 
 function ccc(num5, num6) {
-  return num5 * num6;
-  let b = ccc.slice(-2);
+  let def = num5 * num6;
+  let b = String(def);
+  return b.slice(2,-1);
 }
-
 console.log(ccc(21,52));
 
 
