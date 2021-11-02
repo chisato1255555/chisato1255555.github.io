@@ -49,7 +49,7 @@ console.log(bbb(12,23));
 function ccc(num5, num6) {
   let def = num5 * num6;
   let b = String(def);
-  return b.slice(2,-1);
+  return b.slice(-2,-1);
 }
 console.log(ccc(21,52));
 
