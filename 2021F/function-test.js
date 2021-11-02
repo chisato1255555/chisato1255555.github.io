@@ -19,9 +19,9 @@ function test(猫1, 猫2){
 }
 
 
-console.log(2021 * 1010);
   function calc() {
-    return "number";
+  let z = 2021 * 1010;
+    return z;
   }
 
   console.log(calc());
