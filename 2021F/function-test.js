@@ -20,10 +20,8 @@ function test(猫1, 猫2){
 
 
   function calc() {
-  let z = 2021 * 1010;
-    return z;
+    return 2021 * 1010;
   }
-
   console.log(calc());
 
 
@@ -48,10 +46,29 @@ console.log(bbb(12,23));
 
 function ccc(num5, num6) {
   let def = num5 * num6;
+  def = def.toString();
+  alert(def.substring(def.length-2,def.length-1));
   let b = String(def);
   return b.slice(-2,-1);
 }
 console.log(ccc(21,52));
+
+
+
+
+
+function  multiply1Digit(numA,numB){
+  return (numA * numB % 10);
+}
+console.log(multiply1Digit(24,11));
+
+
+
+console.log("こんにちはこんにちは");
+
+function helloSomeone(name){
+
+}
 
 
 
