@@ -64,12 +64,17 @@ console.log(multiply1Digit(24,11));
 
 
 
+
 console.log("こんにちはこんにちは");
 
 function helloSomeone(name){
-
+console.log(`こんにちは${name}さん`);
 }
+helloSomeone("引数1");
 
-
+function helloCircleArea(radius){
+  return radius * radius * 3.14;
+}
+console.log(`helloCircleArea(3);${helloCircleArea(3)}`);
 
 
