@@ -75,6 +75,11 @@ helloSomeone("引数1");
 function helloCircleArea(radius){
   return radius * radius * 3.14;
 }
-console.log(`helloCircleArea(3);${helloCircleArea(3)}`);
+console.log(`helloCircleArea(3):${helloCircleArea(3)}`);
+
+function  helloRectangleArea(width,height){
+  return width * height;
+}
+console.log(`helloRectangleArea(2,5):${helloRectangleArea(2,5)}`);
 
 
