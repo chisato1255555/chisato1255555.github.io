@@ -72,10 +72,15 @@ console.log(`こんにちは${name}さん`);
 }
 helloSomeone("引数1");
 
+function helloCircleArea(radius){
+console.log(radius * radius * 3.14);
+}
+helloCircleArea(3);
 
-
-
-
+function helloRectangleArea(width,height){
+  console.log(width * height);
+}
+helloRectangleArea(2,5);
 
 
 function circleArea(radius){
