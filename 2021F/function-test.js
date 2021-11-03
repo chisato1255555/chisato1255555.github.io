@@ -72,14 +72,21 @@ console.log(`こんにちは${name}さん`);
 }
 helloSomeone("引数1");
 
-function helloCircleArea(radius){
+
+
+
+
+
+
+function circleArea(radius){
   return radius * radius * 3.14;
 }
-console.log(`helloCircleArea(3):${helloCircleArea(3)}`);
+console.log(`circleArea(3):${circleArea(3)}`);
 
-function  helloRectangleArea(width,height){
+function  rectangleArea(width,height){
   return width * height;
 }
-console.log(`helloRectangleArea(2,5):${helloRectangleArea(2,5)}`);
+console.log(`rectangleArea(2,5):${rectangleArea(2,5)}`);
+
 
 
