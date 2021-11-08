@@ -7,5 +7,5 @@ function appendCircle(){
 function appendCross(){
   let modal = document
       .getElementById(`modal`);
-  modal.innerHTML = "✕";
+  modal.innerHTML = "✕" ;
 }
