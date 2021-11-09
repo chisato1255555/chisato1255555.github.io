@@ -1,11 +1,11 @@
 function appendCircle(){
   let modal = document
       .getElementById(`modal`);
-  modal.innerHTML = "〇";
+  modal.insertAdjacentHTML(`beforeend`, `〇`);
 }
 
 function appendCross(){
   let modal = document
       .getElementById(`modal`);
-  modal.innerHTML = "✕" ;
+  modal.insertAdjacentHTML(`beforeend`, `✕`);
 }
