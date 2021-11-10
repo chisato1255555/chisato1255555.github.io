@@ -10,3 +10,14 @@ function appendCross(){
       .getElementById(`modal`);
   modal.insertAdjacentHTML(`beforeend`, `✕`);
 }
+
+
+
+function appendCircle(){
+  let modal = document.querySelector("#modal");
+  modal.innerHTML = `${modal.innerHTML}○`;
+}
+function appendCross(){
+  let modal = document.querySelector("#modal");
+  modal.innerHTML = `${modal.innerHTML}×`;
+}
