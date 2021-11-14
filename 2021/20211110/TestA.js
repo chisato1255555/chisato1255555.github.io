@@ -1,7 +1,8 @@
 function checkNumber(){
-  if(Number(document.querySelector(`#num`).value) > 10){
-    window.alert("true");
+  let num = document.querySelector(`#num`);
+  if(Number(num.value) > 10){
+    window.alert("true" + num.value);
   }else{
-    window.alert("false");
+    window.alert("false" + num.value);
   }
 }
