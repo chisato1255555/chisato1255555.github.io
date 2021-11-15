@@ -6,8 +6,8 @@ function checkAge(){
   }else if(Number(20 <= (num.value) && (num.value) < 65)){
     window.alert("成人" + answer.innerHTML);
   }else if (Number(num.value) >= 65){
-    window.alert("高齢者" + answer.innerHTML);
+    answer.innerHTML = "高齢者";
   }else if(Number(num.value) <= 0){
-    window.alert("エラー" + answer.innerHTML);
+    answer.innerHTML = "エラー";
   }
 }
