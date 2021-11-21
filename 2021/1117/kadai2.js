@@ -4,19 +4,19 @@ function  doFizzBuzz() {
   while (i <= 100) {
     console.log(i);
     if (i % 3 === 0 && i % 5 === 0) {
-      answer.innerHTML = "FizzBuzz<br>";
+      answer.innerHTML = `${answer.innerHTML}FizzBuzz<br>`;
       console.log("FizzBuzz");
     }
     else if (i % 3 === 0) {
-      answer.innerHTML = "Fizz<br>";
+      answer.innerHTML = `${answer.innerHTML}Fizz<br>`;
       console.log("Fizz");
     }
     else if (i % 5 === 0) {
-      answer.innerHTML = "Buzz<br>";
+      answer.innerHTML = `${answer.innerHTML}Buzz<br>`;
       console.log("Buzz");
     }
     else {
-      answer.innerHTML = "i<br>";
+      answer.innerHTML = `${answer.innerHTML}<br>`;
     }
     i++;
   }
