@@ -18,7 +18,6 @@ function  doFizzBuzz() {
     else {
       answer.innerHTML = "i<br>";
     }
-    answer.innerHTML = answer.innerHTML + "<br>";
     i++;
   }
 }
