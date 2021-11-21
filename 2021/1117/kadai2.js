@@ -16,7 +16,7 @@ function  doFizzBuzz() {
       console.log("Buzz");
     }
     else {
-      answer.innerHTML = `${(answer.innerHTML)}<br>`;
+      answer.innerHTML = `${Number(answer.innerHTML)}i<br>`;
     }
     i++;
   }
