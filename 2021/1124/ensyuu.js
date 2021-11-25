@@ -1,3 +1,4 @@
+//while版
 let answer = document.querySelector("#answer");
 let i = 0;
 while(i < fruitNames.length){
@@ -8,7 +9,7 @@ while(i < fruitNames.length){
 answer.innerHTML = `<ul>${answer.innerHTML}</ul>`;
 
 
-
+//for版
 let answer1 = document.querySelector("#answer");
 for(let i = 0;i < fruitNames.length;i++){
   answer1.innerHTML += `<li>${fruitNames[i]}</li>`;
