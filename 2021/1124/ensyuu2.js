@@ -1,13 +1,12 @@
-//while版
+//for版
 let answer = document.querySelector("#answer");
 let i = 0;
 
-while(i < tweets.length){
+for(let i = 0;i < tweets.length;i++){
   answer.innerHTML += `<li>
     <b>${tweets[i].name}</b>:
     ${tweets[i].message}
     <i>${tweets[i].tweetedAt}</i>
-    </li>`;
-  i++;
+  </li>`;
 }
 answer.innerHTML = `<ul>${answer.innerHTML}</ul>`;

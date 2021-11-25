@@ -10,7 +10,7 @@ answer.innerHTML = `<ul>${answer.innerHTML}</ul>`;
 
 
 //for版
-let answer1 = document.querySelector("#answer");
+let answer1 = document.querySelector("#answer1");
 for(let i = 0;i < fruitNames.length;i++){
   answer1.innerHTML += `<li>${fruitNames[i]}</li>`;
   console.log(fruitNames[i]);
