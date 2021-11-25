@@ -15,3 +15,5 @@ for(let i = 0;i < fruitNames.length;i++){
   console.log(fruitNames[i]);
 }
 answer1.innerHTML = `<ul>${answer1.innerHTML}</ul>`;
+
+
