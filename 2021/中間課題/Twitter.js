@@ -38,7 +38,7 @@ answer.innerHTML = `<ul>${answer.innerHTML}</ul>`;
 
 function sanbot() {
   for (let i = 0; i < tweets.length; i++) {
-    if (tweets[i].name !== `三郎BOT`) {
+    if (tweets[i].name === `三郎BOT`) {
       answer.innerHTML += `<li>
     <img src=" ${tweets[i].avatar}"
     <b>${tweets[i].name}</b>:
@@ -52,7 +52,7 @@ function sanbot() {
 
 function jirou() {
   for (let i = 0; i < tweets.length; i++) {
-    if (tweets[i].name !== `次郎`) {
+    if (tweets[i].name === `次郎`) {
       answer.innerHTML += `<li>
     <img src=" ${tweets[i].avatar}"
     <b>${tweets[i].name}</b>:
@@ -66,7 +66,7 @@ function jirou() {
 
 function tarou() {
   for (let i = 0; i < tweets.length; i++) {
-    if (tweets[i].name !== `太郎`) {
+    if (tweets[i].name === `太郎`) {
       answer.innerHTML += `<li>
     <img src=" ${tweets[i].avatar}"
     <b>${tweets[i].name}</b>:
