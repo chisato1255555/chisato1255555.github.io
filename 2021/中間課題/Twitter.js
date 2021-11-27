@@ -23,7 +23,6 @@ for(let i = 0;i <tweets.length;i++){
   </li>`;
 }
 answer.innerHTML = `<ul>${answer.innerHTML}</ul>`;
-}
 
 function all(){
   for(let i = 0;i <tweets.length;i++){
@@ -35,7 +34,7 @@ function all(){
   </li>`;
   }
 answer.innerHTML = `<ul>${answer.innerHTML}</ul>`;
-　　}
+}
 
 function sanbot() {
   for (let i = 0; i < tweets.length; i++) {
@@ -47,8 +46,8 @@ function sanbot() {
     <i>${tweets[i].tweetedAt}</i>
   </li>`;
     }
-    answer.innerHTML = `<ul>${answer.innerHTML}</ul>`;
   }
+    answer.innerHTML = `<ul>${answer.innerHTML}</ul>`;
 }
 
 function jirou() {
@@ -61,8 +60,8 @@ function jirou() {
     <i>${tweets[i].tweetedAt}</i>
   </li>`;
     }
-    answer.innerHTML = `<ul>${answer.innerHTML}</ul>`;
   }
+    answer.innerHTML = `<ul>${answer.innerHTML}</ul>`;
 }
 
 function tarou() {
@@ -75,6 +74,6 @@ function tarou() {
     <i>${tweets[i].tweetedAt}</i>
   </li>`;
     }
-    answer.innerHTML = `<ul>${answer.innerHTML}</ul>`;
   }
+    answer.innerHTML = `<ul>${answer.innerHTML}</ul>`;
 }
