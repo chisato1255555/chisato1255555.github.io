@@ -1,5 +1,5 @@
 let answer = document.querySelector("#name");
-let i = 0;
+
 let tweets = [
   { name: "三郎BOT", message: "21時でござる", tweetedAt: "2019-11-01 21:00:00", avatar: "https://morimorihoge.github.io/teu2019f/images/omocha_robot.png" },
   { name: "次郎", message: "悲しいので寝ます", tweetedAt: "2019-11-01 20:14:44", avatar: "https://morimorihoge.github.io/teu2019f/images/idol_fan_penlight_sougankyou.png" },
@@ -17,7 +17,7 @@ let tweets = [
 for(let i = 0;i <tweets.length;i++){
   let answer = document.querySelector("#name");
   answer.innerHTML += `<li>
-    <img src=" ${tweets[i].avatar}"
+    <img src= ${tweets[i].avatar} alt="..." 
     <b>${tweets[i].name}</b>:
     ${tweets[i].message}
     <i>${tweets[i].tweetedAt}</i>
@@ -30,7 +30,7 @@ function all(){
   let answer = document.querySelector("#name");
   for(let i = 0;i <tweets.length;i++){
   answer.innerHTML += `<li>
-    <img src=" ${tweets[i].avatar}"
+    <img src= ${tweets[i].avatar} alt="..."
     <b>${tweets[i].name}</b>:
     ${tweets[i].message}
     <i>${tweets[i].tweetedAt}</i>
@@ -44,7 +44,7 @@ function sanbot() {
   for (let i = 0; i < tweets.length; i++) {
       if (tweets[i].name === `三郎BOT`) {
         answer.innerHTML += `<li>
-    <img src=" ${tweets[i].avatar}"
+    <img src= ${tweets[i].avatar} alt="..."
     <b>${tweets[i].name}</b>:
     ${tweets[i].message}
     <i>${tweets[i].tweetedAt}</i>
@@ -59,7 +59,7 @@ function jirou() {
   for (let i = 0; i < tweets.length; i++) {
     if (tweets[i].name === `次郎`) {
       answer.innerHTML += `<li>
-    <img src=" ${tweets[i].avatar}"
+    <img src= ${tweets[i].avatar} alt="..."
     <b>${tweets[i].name}</b>:
     ${tweets[i].message}
     <i>${tweets[i].tweetedAt}</i>
@@ -74,7 +74,7 @@ function tarou() {
   for (let i = 0; i < tweets.length; i++) {
     if (tweets[i].name === `太郎`) {
       answer.innerHTML += `<li>
-    <img src=" ${tweets[i].avatar}"
+    <img src= ${tweets[i].avatar} alt="..."
     <b>${tweets[i].name}</b>:
     ${tweets[i].message}
     <i>${tweets[i].tweetedAt}</i>
