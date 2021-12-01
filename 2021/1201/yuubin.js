@@ -1,4 +1,4 @@
-fetch(`https://zipcloud.ibsnet.co.jp/api/search?zipcode=`).then(
+fetch(`https://zipcloud.ibsnet.co.jp/api/search?zipcode=7830060`).then(
     function(response){
       return response.json();
     }
