@@ -1,4 +1,4 @@
-fetch("https://sheets.googleapis.com/v4/spreadsheets/1sf4i7kqOzucvdK1LFzNLvXTpMbHCdplqkSrdMOrHPTg/values/sheet1!A1:C4?key=AIzaSyBHrsc5Ktg5KcIDab1davAjKef3Yv7D3iI").then(
+fetch("https://sheets.googleapis.com/v4/spreadsheets/1sf4i7kqOzucvdK1LFzNLvXTpMbHCdplqkSrdMOrHPTg/values/sheet1!A1:C7?key=AIzaSyBHrsc5Ktg5KcIDab1davAjKef3Yv7D3iI").then(
     function (response) {
       return response.json();
     }
