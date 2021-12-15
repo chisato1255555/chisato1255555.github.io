@@ -24,7 +24,7 @@ function startAnimation() {
         backgroundColor: "#f00",
         borderRadius: ['0%', '50%'],
         scale: 3,
-        rotate: '3turn'
+        rotate: '5turn'
       },
       {
         translateX: 0,
@@ -35,7 +35,7 @@ function startAnimation() {
         rotate: '3turn',
       }
     ],
-    duration: 2000,
+    duration: 3000,
     easing: "steps(10)"
   });
 }
