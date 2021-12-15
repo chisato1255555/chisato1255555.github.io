@@ -1,15 +1,19 @@
-function doFetch() {
-  const code = document.getElementById('isbn').value;
-  const parent = document.getElementById('bookinfo');
-  parent.textContent = null;
-
-  fetch('https://api.openbd.jp/v1/get?isbn=9784591159224' + code)
-      .then(response =>  {
+function doSearch() {
+  let keyword = document.querySelector("#keyword").value;
+  // API document: https://developers.google.com/books/docs/v1/using#PerformingSearch
+  fetch(`https://www.googleapis.com/books/v1/volumes?q=${keyword}&maxResults=40&orderBy=newest`).then(
+      function (response) {
         return response.json();
-      }).then( res => {
-    const data = "書籍名:" + res.items[0].volumeInfo.title;
-    parent.append(data);
-  }).catch(function (error) {
-    parent.append(error);
-  });
+      }
+  ).then(
+      function (json) {
+        console.log(json);
+        let html = "<ul>";
+        json.items.forEach((item) => {
+          html += `<li>${item.volumeInfo.title}</li>`;
+        });
+        html += "</ul>";
+        document.querySelector("#answer").innerHTML = html;
+      }
+  );
 }
