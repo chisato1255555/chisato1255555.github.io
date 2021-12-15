@@ -6,25 +6,33 @@ function startAnimation() {
         translateX: 580,
         translateY: 0,
         backgroundColor: "#f00",
-        borderRadius: ['0%', '50%']
+        borderRadius: ['0%', '50%'],
+        scale: 1,
+        rotate: '3turn'
       },
       {
         translateX: 580,
         translateY: 280,
         backgroundColor: "#f00",
-        borderRadius: ['0%', '50%']
+        borderRadius: ['0%', '50%'],
+        scale: 1,
+        rotate: '3turn'
       },
       {
         translateX: 0,
         translateY: 280,
         backgroundColor: "#f00",
-        borderRadius: ['0%', '50%']
+        borderRadius: ['0%', '50%'],
+        scale: 1,
+        rotate: '3turn'
       },
       {
         translateX: 0,
         translateY: 0,
         backgroundColor: "#f00",
-        borderRadius: ['0%', '50%']
+        borderRadius: ['0%', '50%'],
+        scale: 1,
+        rotate: '3turn',
       }
     ],
     duration: 2000,
