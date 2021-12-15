@@ -7,15 +7,15 @@ function startAnimation() {
         translateY: 0,
         backgroundColor: "#f00",
         borderRadius: ['0%', '50%'],
-        scale: 1,
-        rotate: '3turn'
+        scale: 2,
+        rotate: '1turn'
       },
       {
         translateX: 580,
         translateY: 280,
         backgroundColor: "#f00",
         borderRadius: ['0%', '50%'],
-        scale: 1,
+        scale: 4,
         rotate: '3turn'
       },
       {
@@ -23,7 +23,7 @@ function startAnimation() {
         translateY: 280,
         backgroundColor: "#f00",
         borderRadius: ['0%', '50%'],
-        scale: 1,
+        scale: 3,
         rotate: '3turn'
       },
       {
