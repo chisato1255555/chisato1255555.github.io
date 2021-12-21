@@ -1,0 +1,13 @@
+.moimg1 {
+    overflow: hidden;
+    width: 570px;
+    height: 389px;
+}
+.moimg1 img {
+    width: 570px;
+    display: block;
+    transition: 0.5s;
+}
+.moimg1 img:hover {
+    transform: scale(1.1, 1.1);
+}
