@@ -1,23 +1,22 @@
-//ボタン
-const scroll_to_top_btn = document.querySelector('#scroll-to-top-btn');
+// スクロールトップボタン
+scrollTop('js-scroll-top', 150);
 
-//クリックイベントを追加
-scroll_to_top_btn.addEventListener( 'click' , scroll_to_top );
+function scrollTop(el, duration) {
+  const target = document.getElementById(el);
+  target.addEventListener('click', function() {
+    let currentY = window.pageYOffset;
+    let step = duration/currentY > 1 ? 10 : 100;
+    let timeStep = duration/currentY * step;
+    let intervalId = setInterval(scrollUp, timeStep);
 
-function scroll_to_top(){
-  window.scroll({top: 0, behavior: 'smooth'});
-};
 
-
-//スクロール時のイベントを追加
-window.addEventListener( 'scroll' , scroll_event );
-
-function scroll_event(){
-
-  if(window.pageYOffset > 400){
-    scroll_to_top_btn.style.opacity = '1';
-  }else if(window.pageYOffset < 400){
-    scroll_to_top_btn.style.opacity = '0';
-  }
-
-};
+    function scrollUp(){
+      currentY = window.pageYOffset;
+      if(currentY === 0) {
+        clearInterval(intervalId);
+      } else {
+        scrollBy( 0, -step );
+      }
+    }
+  });
+}
