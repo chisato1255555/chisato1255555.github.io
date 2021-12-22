@@ -25,11 +25,35 @@
 }
 
 .button {
+    position: relative;
+    z-index: 2;
     background-color: #ff0000;
+    border: 2px solid #ff0000;
     color: #fff;
+    line-height: 50px;
 }
 .button:hover {
-    background-color: #880000;
+    background-color: #fff;
+    border-color: #ff0000;
+    color: #ff0000;
+}
+.button::before,
+.button::after {
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #ff0000;
+}
+.button::before {
+    right: 0;
+}
+.button::after {
+    left: 0;
+}
+.button:hover::before,
+.button:hover::after {
+    width: 0;
+    background-color: #ff0000;
 }
 
 
@@ -59,10 +83,38 @@
     transition: all .3s;
 }
 
+
+
 .button2 {
+    position: relative;
+    z-index: 2;
     background-color: #0000ff;
+    border: 2px solid #0000ff;
     color: #fff;
+    line-height: 50px;
 }
 .button2:hover {
-    background-color: #000099;
+    background-color: #fff;
+    border-color: #0000ff;
+    color: #0000ff;
 }
+.button2::before,
+.button2::after {
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #0000ff;
+}
+.button2::before {
+    right: 0;
+}
+.button2::after {
+    left: 0;
+}
+.button2:hover::before,
+.button2:hover::after {
+    width: 0;
+    background-color: #0000ff;
+}
+
+
