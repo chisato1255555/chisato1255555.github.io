@@ -12,3 +12,19 @@
     transform: scale(1.1, 1.1);
 }
 
+
+
+
+.T2 {
+    overflow: hidden;
+    width: 400px;
+    height: 300px;
+}
+.T2 img {
+    width: 400px;
+    display: block;
+    transition: 0.5s;
+}
+.T2 img:hover {
+    transform: scale(1.1, 1.1);
+}
