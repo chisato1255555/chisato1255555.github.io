@@ -28,3 +28,8 @@
 .T2 img:hover {
     transform: scale(1.1, 1.1);
 }
+
+
+.T3:hover {
+    color: #ff1a6f;
+}
